@@ -18,10 +18,10 @@ app = Flask(__name__)
 
 # Configuration
 
-UPLOAD_FOLDER = './leap/uploads'
+#UPLOAD_FOLDER = '/uploads/'
 ALLOWED_EXTENSIONS = set(['pdf'])
 #app.config.from_object('config')
-app.config['UPLOAD_FOLDER'] = './leap/uploads'
+app.config['UPLOAD_FOLDER'] = 'uploads/'
 
 
 # Application
