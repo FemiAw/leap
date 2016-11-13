@@ -10,5 +10,7 @@ setup(
         'BeautifulSoup4',
         'PyPDF2',
         'nltk',
+        'numpy',
+        'requests',
     ],
 )
