@@ -7,5 +7,8 @@ setup(
     install_requires=[
         'flask',
         'werkzeug',
+        'BeautifulSoup4',
+        'PyPDF2',
+        'nltk',
     ],
 )
