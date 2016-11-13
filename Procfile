@@ -1,1 +1,1 @@
-web: gunicorn manage:leap
+web: gunicorn leap:leap
