@@ -32,6 +32,10 @@ def index():
     user = {'name': 'Konstantin'}
     return render_template('index.html', title='Leap', user=user)
 
+@app.route('/question')
+def question():
+    return render_template('question.html', title='Question')
+
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
