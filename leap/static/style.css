@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #FFAAAA;
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -9,8 +9,14 @@ body {
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+  color: white;
 }
 
 h4 {
   color: grey;
+}
+
+a {
+  color: white;
+  font-weight: 800;
 }
